@@ -26,9 +26,9 @@ export const DropDown: FC<ButtonProps> = ({cases, setWord, currentWord}) => {
 
     if (lastChar) {
       if (vowels.includes(lastChar)) {
-        setWord(`${currentWord.slice(0, -1) + wordEnding[0].ending}`);
+        setWord(`${wordEnding[0].case} : ${currentWord.slice(0, -1) + wordEnding[0].ending}`);
       } else {
-        setWord(`${currentWord + wordEnding[0].ending}`);
+        setWord(`${wordEnding[0].case} : ${currentWord + wordEnding[0].ending}`);
       }
     }
   }
