@@ -1,0 +1,11 @@
+.input_container{
+  display: block;
+}
+
+.input{
+  background-color: #434343;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
