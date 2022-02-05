@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="root">
-      <div className="form_title">Склоениение существительных по падежам</div>
+      <div className="form_title">Склонение существительных по падежам</div>
       <div className="form_container">
         <div className="sub_container">
           <CustomInput onChange={onChangeHandle} />

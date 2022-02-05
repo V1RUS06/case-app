@@ -39,7 +39,7 @@ export const DropDown: FC<ButtonProps> = ({cases, setWord, currentWord}) => {
   return (
     <div ref={wrapperRef}>
       <button className="button_container" onClick={onToggle} >
-        <div className="text">Выберете падеж</div>
+        <div className="text">Выберите падеж</div>
       </button>
       {
         listVisible &&(
